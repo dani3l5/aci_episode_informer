@@ -5,7 +5,7 @@ import os
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-#Edit info here
+#Edit reddit info here
 reddit = praw.Reddit(client_id = 'YOUR_CLIENT_ID',
                      client_secret = 'YOUR_CLIENT_SECRET',
                      username = 'YOUR_USERNAME',
